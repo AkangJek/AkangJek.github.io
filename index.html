@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          Haikal DM
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container px-3">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <header class="bg-light py-5">
+      <div class="container px-5">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="my-5">
+              <h2 class="text-center fw-bold mb-2">Hi! I am Haikal Dzaky Muktighani,</h2>
+              <h2 class="">UI/UX Designer & Web Developer</h2>
+              <p class="lead text-muted mb-4">
+                I am a 5th-semester student who is very enthusiastic about technology and
+                has a special interest in the world of IT, especially in IT support and web
+                development. I believe that technology is a force that can change the world, and I want to contribute to
+                making that change a reality.
+              </p>
+              <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                  Learn More
+                  <span class="material-icons-outlined ms-2">help_outline</span>
+                </a>
+                <a class="btn btn-outline-primary btn-large text-uppercase" href="#projects">
+                  View My Work
+                  <span class="material-icons-outlined ms-2">manage_search</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-xxl-6 justify-content-center">
+            <img class="img-fluid rounded-3 my-5" src="images/profile.jpg" alt="Hero Image">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Hero -->
+
+    <main>
+      <!-- About -->
+      <section id="about" class="text-center py-5">
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <h2 class="fw-bold">About</h2>
+            <p class="lead text-muted mb-5">
+              Im also have an interest in the field of UI/UX design and Web Development
+            </p>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="d-flex mb-5 about">
+                <span class="material-icons-outlined m-auto text-primary">palette</span>
+              </div>
+              <h5>Design</h5>
+              <p class="text-muted mb-0">
+                I craft exquisite, contemporary designs meticulously tailored for diverse color modes, seamlessly
+                transitioning between light and dark themes. My creations not only captivate visually but also ensure an
+                immersive and versatile user experience.
+              </p>
+            </div>
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="d-flex mb-5 about">
+                <span class="material-icons-outlined m-auto text-primary">code</span>
+              </div>
+              <h5>Web Development</h5>
+              <p class="text-muted mb-0">
+                I specialize in developing highly responsive, scalable, and lightning-fast applications, employing the
+                industry's best standards and cutting-edge coding practices. My commitment to excellence ensures that
+                each application I create not only meets but exceeds expectations in terms of performance and
+                reliability.
+              </p>
+            </div>
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="d-flex mb-5 about">
+                <span class="material-icons-outlined m-auto text-primary">settings</span>
+              </div>
+              <h5>IT Support</h5>
+              <p class="text-muted mb-0">
+                I'm a passionate IT Support professional known for my expertise in swiftly resolving technical issues. I
+                find satisfaction in assisting users and ensuring smooth system operations. Overall, I'm dedicated to
+                honing my skills and providing top-notch support in the IT environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About -->
+
+      <hr>
+
+      <!-- Projects -->
+      <section id="projects" class="text-center py-5">
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <h2 class="fw-bold">Projects</h2>
+            <p class="lead text-muted mb-5">View some of my latest projects</p>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="card h-100 shadow-lg border-0 bg-light">
+                <img class="card-img-top" src="images/Onbulance.jpg" alt="Project 1">
+                <div class="card-body p-4">
+                  <h5 class="card-title mb-3">Onbulance Dashboard</h5>
+                  <div class="mb-2">
+                    <div class="badge bg-primary rounded-pill">Figma</div>
+                    <div class="badge bg-primary rounded-pill">Design</div>
+                    <div class="badge bg-primary rounded-pill">UI/UX</div>
+                    <div class="badge bg-primary rounded-pill">Mobile Application</div>
+                  </div>
+                  <p class="card-text">
+                    Onbulance is a mobile application designed for emergency ambulance requests, streamlining the
+                    process for individuals in need of prompt ambulance assistance. It provides a convenient solution
+                    for swiftly accessing emergency medical services.
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent mb-3">
+                  <a class="btn btn-outline-primary btn-sm text-uppercase"
+                    href="https://www.figma.com/file/05aKbLnd8AQO1gy9P9Oxuj/Onbulance-Design-UI%2FUX?type=design&node-id=0%3A1&mode=design&t=0FIY0iZ65GrSee6A-1"
+                    target="_blank">
+                    <span class="material-icons-outlined me-1">code</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="card h-100 shadow-lg border-0 bg-light">
+                <img class="card-img-top" src="images/ENtin.jpg" alt="Project 2">
+                <div class="card-body p-4">
+                  <h5 class="card-title mb-3">E'NTIN</h5>
+                  <div class="mb-2">
+                    <div class="badge bg-primary rounded-pill">Figma</div>
+                    <div class="badge bg-primary rounded-pill">Design</div>
+                    <div class="badge bg-primary rounded-pill">UI/UX</div>
+                    <div class="badge bg-primary rounded-pill">Mobile Application</div>
+                  </div>
+                  <p class="card-text">
+                    E'NTIN is a convenient mobile application designed to facilitate food ordering within a localized
+                    scope. Additionally, Entin offers a solution to avoid excessive queues, providing users with a
+                    seamless dining experience.
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent mb-3">
+                  <a class="btn btn-outline-primary btn-sm text-uppercase"
+                    href="https://www.figma.com/file/wCyFKK8KGQKxW1XFCT4Zja/Wireframe?type=design&node-id=0%3A1&mode=design&t=lDY83BMnxVRMNZjQ-1"
+                    target="_blank">
+                    <span class="material-icons-outlined me-1">code</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mx-auto mb-5">
+              <div class="card h-100 shadow-lg border-0 bg-light">
+                <img class="card-img-top" src="images/agrofarm.jpg" alt="Project 3">
+                <div class="card-body p-4">
+                  <h5 class="card-title mb-3">AgroFarm</h5>
+                  <div class="mb-2">
+                    <div class="badge bg-primary rounded-pill">Figma</div>
+                    <div class="badge bg-primary rounded-pill">Design</div>
+                    <div class="badge bg-primary rounded-pill">UI/UX</div>
+                    <div class="badge bg-primary rounded-pill">Web Application</div>
+                    <div class="badge bg-primary rounded-pill">HTML</div>
+                    <div class="badge bg-primary rounded-pill">CSS/SCSS</div>
+                    <div class="badge bg-primary rounded-pill">Javascript</div>
+
+
+                  </div>
+                  <p class="card-text">
+                    The website aims to assist farmers in transitioning from manual, paper-based record-keeping to a
+                    digital system, particularly focusing on the documentation of harvest yields. Additionally, it
+                    incorporates a weather prediction system for monitoring purposes during the cultivation process,
+                    aiming to mitigate harvest failures.
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent mb-3">
+                  <a class="btn btn-outline-primary btn-sm text-uppercase"
+                    href="https://www.figma.com/file/oVzHa2lIWUo3s8xvx2SioL/CAPSTONE-DICODING?type=design&node-id=0%3A1&mode=dev"
+                    target="_blank">
+                    <span class="material-icons-outlined me-1">code</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Projects -->
+
+      <hr>
+
+      <!-- Contact -->
+      <section id="contact" class="text-center py-5">
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <h2 class="fw-bold">Contact</h2>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+              <div class="mb-5">
+                <h6 class="text-uppercase mb-2">Address</h6>
+                <p class="lead mb-0">Bekasi City, Indonesia</p>
+              </div>
+              <div class="mb-5">
+                <h6 class="text-uppercase mb-2">Phone</h6>
+                <p class="lead mb-0">+62-882-9005-8364</p>
+              </div>
+              <div class="mb-5">
+                <h6 class="text-uppercase mb-2">Email</h6>
+                <p class="lead mb-0">haikaldm@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!-- Social Icons -->
+              <div class="socials">
+                <a href="https://www.facebook.com/haikal.dzaky.7"><img
+                    src="https://www.svgrepo.com/show/521654/facebook.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/haikaldzaky.m/"><img
+                    src="https://www.svgrepo.com/show/521711/instagram.svg" alt="instagram"></a>
+                <a href="https://github.com/AkangJek"><img src="https://www.svgrepo.com/show/512317/github-142.svg"
+                    alt="GitHub"></a>
+                <a href="www.linkedin.com/in/haikaldzakym"><img src="https://www.svgrepo.com/show/521725/linkedin.svg"
+                    alt="linkedin"></a>
+              </div>
+      </section>
+      <!-- End Contact -->
+    </main>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <div class="container px-5 mb-2">Copyright &copy; 2023 Haikal Dzaky Muktighani</div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

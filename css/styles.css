@@ -1,0 +1,191 @@
+/* Reset some default styles for cross-browser consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #495057; /* Dark gray text color */
+  background-color: #dba3e9;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #9c27b0; /* Deep purple color */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff; /* Light purple text color */
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f3e5f5; /* Light purple text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #9c27b0; /* Darker shade of purple on hover */
+}
+
+/* Hero section styles */
+header {
+  background-color: #9c27b0; /* Dark purple color */
+  padding: 60px 0;
+}
+
+h2 {
+  color: #804e88; /* Light purple text color */
+}
+
+.text-primary {
+  color: #ff4081; /* Pink color */
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #757575; /* Dark gray text color */
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #ed01ff;
+    border-color: #cb6cdc;
+  color: #f3e5f5; /* Light purple text color */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  background-color: #a103ac;
+    border-color: #4c0659;
+}
+
+/* About section styles */
+#about {
+  background-color: #f3e5f5; /* Light purple background */
+  padding: 60px 0;
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #f3e5f5; /* Light purple background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Set minimum height to the viewport height */
+  padding: 60px 0;
+}
+
+.text-uppercase {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* Additional styles for centering content */
+.container {
+  text-align: center;
+}
+
+.socials img {
+  margin: 10px;
+  width: 50px; /* Mengurangi ukuran gambar */
+  height: 50px;
+  transition: transform 0.3s ease; /* Menambahkan transisi untuk efek hover */
+}
+
+.socials img:hover {
+  transform: scale(1.2); /* Efek scale saat dihover */
+}
+
+
+.credit {
+  margin-top: 5px; /* Mengurangi margin top */
+}
+
+.credit a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.credit a:hover {
+  text-decoration: underline;
+}
+
+.social-logo {
+  width: 40px; /* Sesuaikan dengan ukuran logo */
+  height: 40px;
+  margin: 0 10px; /* Spasi antara logo */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Footer styles */
+footer {
+  background-color: #9c27b0; /* Dark purple color */
+  color: #f3e5f5; /* Light purple text color */
+  padding: 1rem 0;
+}
+
+/* Leaflet Map styles (customize as needed) */
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .btn-primary,
+  .btn-outline-primary {
+    font-size: 0.875rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
