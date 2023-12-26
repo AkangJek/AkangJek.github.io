@@ -30,6 +30,10 @@ body {
   color: #ffffff; /* Light purple text color */
 }
 
+.navbar-brand::after {
+  color: #dba3e9;
+}
+
 .nav-link {
   font-size: 1rem;
   font-weight: 500;
@@ -38,7 +42,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #9c27b0; /* Darker shade of purple on hover */
+  color: #ffffff; /* Darker shade of purple on hover */
 }
 
 /* Hero section styles */
